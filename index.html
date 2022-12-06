@@ -1,44 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My_Portfolio Sainath Reddy</title>
+    <script src="https://kit.fontawesome.com/5414a31148.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
 </head>
+
 <body>
- <div id="header">
-    <div class="cointainer">
-        <nav>
-            <img src="images/logo.jpeg" class="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            
-            </ul>
-        </nav>
-        <div class="header-text">
-            <h1>Hi, i'm<span> Sainath Reddy</span></h1>
-            <p>Data Analyst /Data Scientist</p>
-        </div>
-    </div>
- </div>
- <!----------------------------- about------------------------>
- <div id="about">
-    <div class="cointainer-about">
-        <div class="row">
-            <div class="about-col-1">
-                 
-            </div>
-            <div class="about-col-2">
-                <h1>About me</h1>
+    <div id="header">
+        <div class="cointainer">
+            <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, i'm<span> Sainath Reddy</span></h1>
+                <p>Data Science enthusiast</p>
             </div>
         </div>
     </div>
- </div>
+    <!----------------------------- about------------------------>
+    <div id="about">
+        <div class="cointainer-about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/PP.pic.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ipsa quaerat quia deserunt
+                        ex. Rerum minus enim dolor unde architecto vel quis quasi recusandae atque, adipisci,
+                        temporibus, cumque aperiam quas.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Data Analytics</span><br>Good with Data Analytics tools like MS Excel,Power BI,
+                            </li><br>
+                            <li><span>ML/DL algos</span><br>Good with Data Analytics tools like MS Excel,Power BI,</li>
+                            <br>
+                            <li><span>Data Engineering</span><br>Good with Data Analytics tools like MS Excel,Power BI,
+                            </li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021/02 - 2021/10</span><br>ADA, Accenture</li><br>
+                            <li><span>2020/01-2020/09</span><br>Intern, Insight Hydraulics</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Master Data Science program</span><br>completed this in aug,2022</li><br>
+                            <li><span>B.E Mechanical Engineering</span><br>2016-2020</li><br>
+                            <li><span>jr.clg</span><br>Good with Data Analytics tools like MS Excel,Power BI,</li><br>
+                            <li><span>school</span><br>Good with Data Analytics tools like MS Excel,Power BI,</li><br>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------- Services ------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fa-solid fa-chart-scatter"></i> -->
+                    <h2>Data Analytics</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit suscipit sint debitis omnis
+                        assumenda ipsa modi laudantium quo veritatis? Repellat eum tempora facere vero fugit maxime
+                        officia reprehenderit voluptates magni.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-chart-scatter"></i> -->
+                    <h2>Data Science</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit suscipit sint debitis omnis
+                        assumenda ipsa modi laudantium quo veritatis? Repellat eum tempora facere vero fugit maxime
+                        officia reprehenderit voluptates magni.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+
+                    <h2>Data Engineering</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit suscipit sint debitis omnis
+                        assumenda ipsa modi laudantium quo veritatis? Repellat eum tempora facere vero fugit maxime
+                        officia reprehenderit voluptates magni.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------- my projects ---------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+
+                <a href="">
+                    <div class="work">
+                        <img src="images/hp.jpg">
+                        <div class="layer">
+                            <h3>House price predictor</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="work">
+                        <img src="images/hp1.webp">
+                        <div class="layer">
+                            <h3>customer conversion prediction</h3>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="">
+                    <div class="work">
+                        <img src="images/hp2.png">
+                        <div class="layer">
+                            <h3>stock analyzer</h3>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    <!------------------------------- Contact------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p>sainath9849672155@gmail.com</p>
+                    <p>+91 9849672155</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sainath-reddy-883b00165/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SainathReddy5" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <br><br>
+                    <button><a type='button' class="btn"
+                            href="https://drive.google.com/file/d/13G2MEOn6PO_O2r_Hln4PFWj6EZucYpQL/view?usp=share_link"
+                            target="_blank" class="btn btn2">Resume</a>
+                    </button>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" cols="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                    <span id="msg">Message Received</span>
+                </div>
+            </div>
+        </div>
+        <!------------------------- closing--------------------- -->
+        <div id="closing">
+            <p>Thank you&nbsp;&nbsp;<i class="fa-solid fa-heart"></i></p>
+        </div>
+
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkzz-KJdVduzfYfzZa-6KkUn-4AsJDgadQWONVZFxwGnyqvb1kTt9mOLKx3OT6Zys/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response =>{
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ''
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 </body>
+
 </html>
